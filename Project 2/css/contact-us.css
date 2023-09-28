@@ -1,0 +1,60 @@
+.padding {
+    border: 3px solid;
+  }
+  h3 {
+    font-size: 36px;
+    text-align: center;
+  }
+  body {
+    background-image: url("https://wallpapercave.com/wp/dkSK3Dv.jpg");
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .button {
+    background-color: #4caf50;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 20%;
+    animation: button 4000ms infinite;
+  }
+  
+  .button:hover {
+    background-color: #555;
+    transition: infinite 5ms;
+  }
+  
+  .button:hover {
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    animation-direction: reverse;
+  }
+  
+  @keyframes button {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(190deg);
+    }
+  
+    0% {
+      background-color: red;
+    }
+    100% {
+      background-color: pink;
+    }
+    60% {
+      background-color: blue;
+    }
+    80% {
+      background-color: orange;
+    }
+  }
+  
