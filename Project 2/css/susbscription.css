@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+} 
+
+input type[type="text"],
+input type[type="Password"] {
+  width:100%;
+  border:none;
+  display: inline-block;
+  padding:15px;
+  background:#f1f1f1;
+}
+input type[type=text]: focus, input type[type=Password]: input:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.singupbtn button {
+  background-color:#04aa6d;
+  color: white;
+/*   border: none; */
+  cursor: pointer;
+   opacity: 0.9;
+}
+
+.singupbtn  {
+  background-color:#04aa6d;
+  padding:10px;
+  margin: 8px 0; 
+  width: 50%;
+  border:dashed;
+  display:inline-block;
+  box-shadow: 10px 5px black;
+  opacity:0.6;
+  transition: 0.6s;
+  
+}
+button:hover {
+  opacity:1;
+}
+.cancelbtn {
+  padding:10px;
+  background-color: red;
+  margin:8px 0;
+  border:dashed;
+  cursor:pointer;
+  width:50%;
+  box-shadow: 10px 5px black;
+  opacity:0.6;
+  transition: 0.6s;
+ }
+}
+.cancelbtn,
+.singupbtn {
+  padding:10px;
+  float: left;
+  width:10px;
+}
+
+body{
+  background:linear-gradient(#141e30, #243b55);
+}
+.subscription .container{
+  color: white;
+  text-align:center;
+  font-size: 24px;
+  position:absolute;
+  top:50%;
+  left:50%; 
+  padding:10%;
+  transform: translate(-50%, -50%); 
+  background:#053F5E;
+   width:90%;
+  height:100%;
+  box-sizing:border-box;
+  box-shadow:0 15px 25px rgba(0,0,0,.6);
+  border-radius:35%;
+  border-block-start-style: double;
+  border-bottom: 4px double ;
+  
+}
+
+h1{
+  font-family:cursive;
+  text-shadow: 5px 7px black;
+}

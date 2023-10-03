@@ -16,14 +16,14 @@ h1 {
     /* text-align: center; */
   }
  
-  /* .wrapper {
+  .wrapper {
     display: grid;
     grid-template-areas:
       "header header header"
       "main main main"
       "main main main"
       "footer footer footer";
-  } */
+  }
   .card mb-3 {
     width: 40%;
     height: 25%;
