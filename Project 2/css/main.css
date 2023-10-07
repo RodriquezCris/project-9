@@ -29,7 +29,46 @@
   margin-left: 10px;
   margin-top: 10px;
 }
+.subnav{
+  float: right;
+  overflow: hidden;
+  
+}
+.subnav .subnavbtn{
+  font-size: 20px;
+  border: auto;
+  outline: none;
+  color: rgb(244, 244, 244);
+  padding: 14px 16px;
+  background-color:#1c82ad ;
+  font-family: inherit;
+  margin: 0;
+}
+.subnav:hover .subnavbtn{
+background-color: #333;  
+}
 
+.subnav-content{
+display: none;
+position: absolute;
+left: 0;
+background-color: rgb(59, 53, 53);
+width: 100%;
+z-index: 1;
+}
+.subnav-content a {
+  float: right;
+color: white;
+text-decoration: none;
+}
+.subnav-content a:hover{
+  background-color: #1cad9e;
+  color: #333;
+
+}
+.subnav:hover .subnav-content{
+  display: block;
+}
 /* MAIN */
 
 

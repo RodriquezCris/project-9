@@ -1,0 +1,63 @@
+body{
+    /* background-color: rgba(96, 68, 108, 0.854); */
+    background: rgb(18, 18, 16);
+    background: radial-gradient(circle, rgba(18,18,16,0.9940768543745623) 21%, rgba(50,17,125,1) 64%, rgba(74,28,180,1) 81%, rgba(70,16,195,0.8820320364473915) 100%, rgba(73,28,176,0.8820320364473915) 100%);
+    font-size: 34px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#form{
+    width: 300px;
+    height: 390px;
+    padding: 50px;
+    background-color: rgba(92, 59, 130, 0.514);
+    border-radius: 6px;
+    font-size: 12px;
+    box-shadow: 4px 4px 6px 8px #972525;
+    margin: 250px 440px;
+    
+}
+#form h1{
+color: #e2e2e2;
+text-align: center;
+}
+#form button{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(46, 231, 74);
+    box-shadow: 15px 15px 40px white;
+    border: none;
+    border-radius: 4px;
+
+}
+.input-control{
+    display: flex;
+    flex-direction:column ;
+    color: #f0f0f0;
+}
+.input-control input{
+border:2px solid #f0f0f0 ;
+border-radius: 4px;
+display: block;
+font-size: 12px;
+padding: 10px;
+width: 100%;
+}
+
+.input-control input:focus{
+    outline: 0;
+}
+.input-control .success input{
+    border-color: #d6d4df;
+}
+.input-control .error input{
+    border-color: #ff3860;
+}
+.input-control .error{
+    color:#ff3860;
+    font-size: 9px;
+    height: 25px;
+
+}
