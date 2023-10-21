@@ -1,0 +1,133 @@
+nav{
+    background-color: rgb(148, 41, 112);
+    width: 1000px;
+    height: 90px;
+    text-align: center;
+    margin: auto auto auto auto ;
+    
+}
+a{
+    font-size: 44px;
+    color: aliceblue;
+}
+body{
+    background-image: url(https://wallpaperaccess.com/full/3308617.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.bi{
+    color: #ece7e7;
+    padding: 20px 10px;
+    margin: 60px;
+    padding: 30px;
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(237, 235, 235, 0.5);
+    box-sizing: 30px;
+    align-items: center;
+    
+    
+}
+
+
+h4{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.input-field{
+    padding: 10px 650px;
+}
+#Username{
+    color: rgb(235, 234, 234);
+    font-size: 25px;
+    background-color:transparent;
+    /* text-align: center; */
+    padding: 20px;
+    border-radius: 5pc;    
+    box-shadow: rgb(199, 120, 120) 5px 3px 5px 3px;
+    
+}
+.input-field button{
+    /* float: center; */
+    margin: 60px 230px;
+}
+button{
+    display:block;
+    width: 250px;
+    height: 100px;
+    background:#c28eb4;
+    line-height: 50px;
+    text-align:center;
+    border-radius: 6pc;
+    /* border-top-left-radius : 50% ;
+    border-bottom-right-radius : 50% ; */
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    font-size: 20px;
+   
+}
+
+
+                        /* QUIZ RULES */
+
+ .onclick{
+    display: none;
+    color: rgb(29, 29, 210);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.text{
+    color: rgb(253, 8, 8);
+    text-align: center;
+    font-size: 46px;
+    /* width: 24px;
+    height: 14px; */
+}
+.text1{
+    color: black;
+    background-color: rgb(84, 181, 200);
+    text-align: center;
+    font-size: 28px;
+
+}
+.text2{
+    color: black;
+    background-color: rgb(84, 181, 200);
+    text-align: center;
+    font-size: 28px;
+}
+.text3{
+    color: black;
+    background-color: rgb(84, 181, 200);
+    text-align: center;
+    font-size: 28px;
+}
+
+.button1{
+    color: rgb(9, 10, 10);
+    margin-left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    width: 70%;    
+    height: 50%;
+    background-color: rgb(198, 56, 174);
+    font-size: 30px;
+    border-radius: 4pc;
+/* border-top-left-radius : 40% ;
+    border-bottom-right-radius : 40% ; */
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(13, 13, 13);
+    transition: all .5s ease-in-out;
+    
+
+}

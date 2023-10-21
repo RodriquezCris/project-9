@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trivia Game | Movies, TV & Books</title>
+  <link rel="stylesheet" href="question.css">
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="quiz">
+        <div class="quiz_header">
+            <div class="quiz_user">
+            <h4>What country is sushi from?<span class="name"></span> </h4>
+        </div>
+    </div>
+    <div class="quiz_body">
+        <div class="question">
+            <!-- Question Content -->
+           <p id="questionContent"></p>  
+             <ul class="option_group">
+            <li class="option a1" onclick="showPopup('Wrong answer!')">Thailand</li>
+            <li class="option a2" onclick="showPopup('correct answer!')">Japan</li>
+            <li class="option a3" onclick="showPopup('Wrong answer!')">India</li>
+            <li class="option a4" onclick="showPopup('Wrong answer!')">France </li>
+            </ul>   
+        </div>
+<div class="feedback">FEEDBACK</div>
+
+        <button type="Next" onclick="checkAnswer(this)" value="" class="btn btn-next">Next</button>
+
+                   
+            </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+<script src="question.js"></script>
+</body>
+    </html>
